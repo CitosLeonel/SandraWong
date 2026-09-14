@@ -1,545 +1,768 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sandra - Quiromasajista profesional en Madrid. Masajes terapéuticos, relajantes y tratamientos de bienestar. Reserva tu sesión hoy." />
-  <meta name="keywords" content="quiromasaje Madrid, masaje terapéutico, bienestar, masaje relajante, quiromasajista, masaje deportivo" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sandra - Quiromasajista profesional en Madrid. Masajes terapéuticos, relajantes y tratamientos de bienestar. Reserva tu sesión hoy."
+    />
+    <meta
+      name="keywords"
+      content="quiromasaje Madrid, masaje terapéutico, bienestar, masaje relajante, quiromasajista, masaje deportivo"
+    />
 
-  <!-- Open Graph para Facebook Ads -->
-  <meta property="og:title" content="Sandra Quiromasajista · Tu bienestar en buenas manos" />
-  <meta property="og:description" content="Masajes terapéuticos y tratamientos de bienestar en Madrid. Primera sesión con descuento especial." />
-  <meta property="og:image" content="images/og-image.jpg" />
-  <meta property="og:url" content="https://sandraquiromasajista.es" />
-  <meta property="og:type" content="website" />
+    <!-- Open Graph para Facebook Ads -->
+    <meta
+      property="og:title"
+      content="Sandra Quiromasajista · Tu bienestar en buenas manos"
+    />
+    <meta
+      property="og:description"
+      content="Masajes terapéuticos y tratamientos de bienestar en Madrid. Primera sesión con descuento especial."
+    />
+    <meta property="og:image" content="images/og-image.jpg" />
+    <meta property="og:url" content="https://sandrawong.es" />
+    <meta property="og:type" content="website" />
 
-  <!-- Google Ads / Pixel -->
-  <!-- Reemplazar con tu Google Tag ID -->
-  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
+    <!-- Google Ads / Pixel -->
+    <!-- Reemplazar con tu Google Tag ID -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script> -->
 
-  <title>Sandra Quiromasajista · Bienestar & Masajes en Madrid</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
-</head>
-<body>
-
-  <!-- ===== HEADER / NAV ===== -->
-  <header class="header" id="header">
-    <div class="container header__inner">
-      <a href="#hero" class="header__logo">
-        <span class="logo-symbol">✦</span>
-        <span class="logo-text">Sandra <span class="logo-sub">Quiromasajista</span></span>
-      </a>
-      <nav class="nav" id="nav">
-        <ul class="nav__list">
-          <li><a href="#servicios" class="nav__link">Servicios</a></li>
-          <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
-          <li><a href="#testimonios" class="nav__link">Testimonios</a></li>
-          <li><a href="#contacto" class="nav__link nav__link--cta">Reservar sesión</a></li>
-        </ul>
-        <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
-          <span></span><span></span><span></span>
-        </button>
-      </nav>
-    </div>
-  </header>
-
-  <!-- ===== HERO ===== -->
-  <section class="hero" id="hero">
-    <div class="hero__bg"></div>
-    <div class="container hero__content">
-      <span class="hero__eyebrow">Quiromasaje · Bienestar · Madrid</span>
-      <h1 class="hero__title">Tu cuerpo merece<br>cuidado de verdad</h1>
-      <p class="hero__subtitle">Masajes terapéuticos y tratamientos de bienestar personalizados para aliviar el dolor, reducir el estrés y recuperar tu energía.</p>
-      <div class="hero__actions">
-        <a href="#contacto" class="btn btn--primary">Reservar mi sesión ahora</a>
-        <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
-      </div>
-      <div class="hero__trust">
-        <div class="trust-item">
-          <strong>+200</strong>
-          <span>Clientes satisfechos</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <strong>5★</strong>
-          <span>Valoración media</span>
-        </div>
-        <div class="trust-divider"></div>
-        <div class="trust-item">
-          <strong>100%</strong>
-          <span>Profesional certificada</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== BANNER URGENCIA ===== -->
-  <div class="urgency-banner">
-    <div class="container">
-      🎁 <strong>Oferta de bienvenida:</strong> Primera sesión de 60 min por solo <strong>39€</strong> (precio habitual 65€) · Plazas limitadas esta semana
-      <a href="#contacto" class="urgency-banner__cta">Quiero mi descuento →</a>
-    </div>
-  </div>
-
-  <!-- ===== SERVICIOS ===== -->
-  <section class="section" id="servicios">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__eyebrow">Lo que ofrezco</span>
-        <h2 class="section__title">Tratamientos para tu bienestar</h2>
-        <p class="section__subtitle">Cada sesión es personalizada según tus necesidades. No hay dos cuerpos iguales.</p>
-      </div>
-      <div class="services__grid">
-
-        <div class="service-card service-card--featured">
-          <div class="service-card__icon">🌿</div>
-          <div class="service-card__badge">Más popular</div>
-          <h3 class="service-card__title">Quiromasaje Terapéutico</h3>
-          <p class="service-card__desc">Técnica manual profunda para aliviar contracturas, dolores musculares y mejorar la movilidad. Ideal si pasas horas sentado o tienes dolor de espalda.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Alivia contracturas y tensión</li>
-            <li>✓ Mejora la circulación</li>
-            <li>✓ Reduce el dolor crónico</li>
+    <title>Sandra Quiromasajista · Bienestar & Masajes en Madrid</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  </head>
+  <body>
+    <!-- ===== HEADER / NAV ===== -->
+    <header class="header" id="header">
+      <div class="container header__inner">
+        <a href="#hero" class="header__logo">
+          <span class="logo-symbol">✦</span>
+          <span class="logo-text"
+            >Sandra <span class="logo-sub">Quiromasajista</span></span
+          >
+        </a>
+        <nav class="nav" id="nav">
+          <ul class="nav__list">
+            <li><a href="#servicios" class="nav__link">Servicios</a></li>
+            <li><a href="#sobre-mi" class="nav__link">Sobre mí</a></li>
+            <li><a href="#testimonios" class="nav__link">Testimonios</a></li>
+            <li>
+              <a href="#contacto" class="nav__link nav__link--cta"
+                >Reservar sesión</a
+              >
+            </li>
           </ul>
-          <div class="service-card__price">
-            <span class="price">Desde 50€</span>
-            <span class="duration">· 60 min</span>
-          </div>
-          <a href="#contacto" class="btn btn--primary btn--sm">Reservar</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-card__icon">✨</div>
-          <h3 class="service-card__title">Masaje Relajante</h3>
-          <p class="service-card__desc">Elimina el estrés acumulado con movimientos suaves y continuos. Sal de la sesión sintiéndote completamente renovado/a.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Reduce ansiedad y estrés</li>
-            <li>✓ Mejora el sueño</li>
-            <li>✓ Sensación de bienestar inmediata</li>
-          </ul>
-          <div class="service-card__price">
-            <span class="price">Desde 45€</span>
-            <span class="duration">· 60 min</span>
-          </div>
-          <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-card__icon">⚡</div>
-          <h3 class="service-card__title">Masaje Deportivo</h3>
-          <p class="service-card__desc">Diseñado para deportistas y personas activas. Recuperación muscular, prevención de lesiones y mejora del rendimiento.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Recuperación rápida</li>
-            <li>✓ Previene lesiones</li>
-            <li>✓ Mejora el rendimiento</li>
-          </ul>
-          <div class="service-card__price">
-            <span class="price">Desde 55€</span>
-            <span class="duration">· 60 min</span>
-          </div>
-          <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-card__icon">🕯️</div>
-          <h3 class="service-card__title">Ritual de Bienestar</h3>
-          <p class="service-card__desc">Sesión completa que combina técnicas relajantes, aceites esenciales y trabajo corporal profundo. El regalo perfecto para ti o para alguien especial.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Experiencia holística</li>
-            <li>✓ Ideal como regalo</li>
-            <li>✓ Recuperación total</li>
-          </ul>
-          <div class="service-card__price">
-            <span class="price">Desde 75€</span>
-            <span class="duration">· 90 min</span>
-          </div>
-          <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
-        </div>
-
-        <div class="service-card">
-          <div class="service-card__icon">💆</div>
-          <h3 class="service-card__title">Sesión Express</h3>
-          <p class="service-card__desc">Perfecta para una pausa activa en tu día. Foco en cuello, hombros y espalda alta. Sin necesidad de desvestirse.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Sin preparación previa</li>
-            <li>✓ Resultado inmediato</li>
-            <li>✓ Cabe en tu hora de almuerzo</li>
-          </ul>
-          <div class="service-card__price">
-            <span class="price">Desde 25€</span>
-            <span class="duration">· 30 min</span>
-          </div>
-          <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
-        </div>
-
-        <div class="service-card service-card--bono">
-          <div class="service-card__icon">🎁</div>
-          <h3 class="service-card__title">Bonos Multi-sesión</h3>
-          <p class="service-card__desc">Ahorra hasta un 20% comprando bonos de 5 o 10 sesiones. Ideal para tratamientos continuos o regalos.</p>
-          <ul class="service-card__benefits">
-            <li>✓ Bono 5 sesiones: 10% dto.</li>
-            <li>✓ Bono 10 sesiones: 20% dto.</li>
-            <li>✓ Sin caducidad</li>
-          </ul>
-          <div class="service-card__price">
-            <span class="price">Consultar precio</span>
-          </div>
-          <a href="#contacto" class="btn btn--outline btn--sm">Más info</a>
-        </div>
-
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== SOBRE MÍ ===== -->
-  <section class="section section--alt" id="sobre-mi">
-    <div class="container about__grid">
-      <div class="about__image-wrap">
-        <div class="about__image-placeholder">
-          <img src="images/foto_1_perfil_fondo_claro_01.jpg" alt="Sandra quiromasajista" class="about__photo" />
-        </div>
-        <div class="about__badge">
-          <span class="about__badge-icon">🎓</span>
-          <div>
-            <strong>Certificada</strong>
-            <small>Formación oficial en Quiromasaje</small>
-          </div>
-        </div>
-      </div>
-      <div class="about__content">
-        <span class="section__eyebrow">Sobre mí</span>
-        <h2 class="section__title">Hola, soy Sandra</h2>
-        <p>Soy quiromasajista certificada con más de [X] años de experiencia ayudando a personas como tú a recuperar su bienestar físico y mental.</p>
-        <p>Creo que el masaje no es un lujo, es una necesidad. El cuerpo habla, y yo escucho. Cada sesión la adapto completamente a ti: tus tensiones, tu ritmo, tus objetivos.</p>
-        <p>Me formé en [nombre del centro/instituto] y desde entonces he trabajado con deportistas, profesionales con estrés laboral, personas con dolor crónico y también quienes simplemente quieren desconectar y cuidarse.</p>
-        <div class="about__credentials">
-          <div class="credential">
-            <span class="credential__icon">✓</span>
-            <span>Quiromasajista titulada</span>
-          </div>
-          <div class="credential">
-            <span class="credential__icon">✓</span>
-            <span>Formación en técnicas deportivas</span>
-          </div>
-          <div class="credential">
-            <span class="credential__icon">✓</span>
-            <span>Especialización en dolor crónico</span>
-          </div>
-          <div class="credential">
-            <span class="credential__icon">✓</span>
-            <span>+[X] horas de formación continua</span>
-          </div>
-        </div>
-        <a href="#contacto" class="btn btn--primary">Reserva una sesión conmigo</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== PROCESO ===== -->
-  <section class="section" id="proceso">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__eyebrow">¿Cómo funciona?</span>
-        <h2 class="section__title">De la reserva al bienestar en 3 pasos</h2>
-      </div>
-      <div class="steps__grid">
-        <div class="step">
-          <div class="step__number">01</div>
-          <h3 class="step__title">Rellena el formulario</h3>
-          <p class="step__desc">Cuéntame qué necesitas, cuándo puedes y qué zona de tu cuerpo quieres trabajar. Te respondo en menos de 2 horas.</p>
-        </div>
-        <div class="step__arrow">→</div>
-        <div class="step">
-          <div class="step__number">02</div>
-          <h3 class="step__title">Confirmamos tu cita</h3>
-          <p class="step__desc">Te envío la confirmación con todos los detalles: hora, lugar y cómo prepararte para aprovechar al máximo la sesión.</p>
-        </div>
-        <div class="step__arrow">→</div>
-        <div class="step">
-          <div class="step__number">03</div>
-          <h3 class="step__title">Disfruta y mejora</h3>
-          <p class="step__desc">Llega, relájate y déjate llevar. Al final de cada sesión te doy recomendaciones personalizadas para seguir mejorando.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== TESTIMONIOS ===== -->
-  <section class="section section--alt" id="testimonios">
-    <div class="container">
-      <div class="section__header">
-        <span class="section__eyebrow">Lo que dicen mis clientes</span>
-        <h2 class="section__title">Resultados reales</h2>
-      </div>
-      <div class="testimonials__grid">
-
-        <div class="testimonial-card">
-          <div class="testimonial__stars">★★★★★</div>
-          <p class="testimonial__text">"Llevaba meses con dolor de espalda que no se iba. Después de 3 sesiones con Sandra me siento como nueva. Su profesionalidad y trato son increíbles."</p>
-          <div class="testimonial__author">
-            <div class="testimonial__avatar">M</div>
-            <div>
-              <strong>María García</strong>
-              <small>Madrid · Quiromasaje Terapéutico</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial__stars">★★★★★</div>
-          <p class="testimonial__text">"Fui con contracturas brutales después de una semana de trabajo intenso. Sandra las resolvió en una sola sesión. Ya soy cliente habitual. Totalmente recomendable."</p>
-          <div class="testimonial__author">
-            <div class="testimonial__avatar">C</div>
-            <div>
-              <strong>Carlos López</strong>
-              <small>Madrid · Masaje deportivo</small>
-            </div>
-          </div>
-        </div>
-
-        <div class="testimonial-card">
-          <div class="testimonial__stars">★★★★★</div>
-          <p class="testimonial__text">"Le regalé un bono a mi madre y nos dijo que fue lo mejor que le han regalado en mucho tiempo. Sandra transmite una energía muy especial. 100% recomendada."</p>
-          <div class="testimonial__author">
-            <div class="testimonial__avatar">A</div>
-            <div>
-              <strong>Ana Martínez</strong>
-              <small>Madrid · Ritual de Bienestar</small>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <div class="testimonials__cta">
-        <p>¿Lista para sentirte así?</p>
-        <a href="#contacto" class="btn btn--primary">Reservar mi primera sesión</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== FAQ ===== -->
-  <section class="section" id="faq">
-    <div class="container faq__wrap">
-      <div class="section__header">
-        <span class="section__eyebrow">Preguntas frecuentes</span>
-        <h2 class="section__title">Todo lo que necesitas saber</h2>
-      </div>
-      <div class="faq__list">
-        <div class="faq__item">
-          <button class="faq__question" onclick="toggleFaq(this)">
-            ¿Dónde se realizan las sesiones?
-            <span class="faq__icon">+</span>
+          <button class="nav__toggle" id="navToggle" aria-label="Abrir menú">
+            <span></span><span></span><span></span>
           </button>
-          <div class="faq__answer">
-            <p>Las sesiones se realizan en [dirección/zona de Madrid]. También ofrezco servicio a domicilio en determinadas zonas (consultar disponibilidad y coste adicional).</p>
+        </nav>
+      </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg"></div>
+      <div class="container hero__content">
+        <span class="hero__eyebrow">Quiromasaje · Bienestar · Madrid</span>
+        <h1 class="hero__title">Tu cuerpo merece<br />cuidado de verdad</h1>
+        <p class="hero__subtitle">
+          Masajes terapéuticos y tratamientos de bienestar personalizados para
+          aliviar el dolor, reducir el estrés y recuperar tu energía.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn btn--primary"
+            >Reservar mi sesión ahora</a
+          >
+          <a href="#servicios" class="btn btn--ghost">Ver servicios</a>
+        </div>
+        <div class="hero__trust">
+          <div class="trust-item">
+            <strong>+200</strong>
+            <span>Clientes satisfechos</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <strong>5★</strong>
+            <span>Valoración media</span>
+          </div>
+          <div class="trust-divider"></div>
+          <div class="trust-item">
+            <strong>100%</strong>
+            <span>Profesional certificada</span>
           </div>
         </div>
-        <div class="faq__item">
-          <button class="faq__question" onclick="toggleFaq(this)">
-            ¿Cómo debo prepararme para la sesión?
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>No necesitas preparación especial. Es recomendable no haber comido en abundancia 1-2 horas antes y llegar descansado. Yo me encargo del resto.</p>
-          </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" onclick="toggleFaq(this)">
-            ¿Cuántas sesiones necesito?
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Depende de cada caso. Para dolores agudos o estrés puntual, una sesión puede ser suficiente. Para problemas crónicos o mantenimiento del bienestar, recomiendo entre 1 y 2 sesiones al mes.</p>
-          </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" onclick="toggleFaq(this)">
-            ¿Cómo puedo pagar?
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Acepto efectivo, transferencia bancaria y Bizum. El pago se realiza al finalizar la sesión (o al inicio en el caso de bonos).</p>
-          </div>
-        </div>
-        <div class="faq__item">
-          <button class="faq__question" onclick="toggleFaq(this)">
-            ¿Puedo cancelar o cambiar mi cita?
-            <span class="faq__icon">+</span>
-          </button>
-          <div class="faq__answer">
-            <p>Sí, con un mínimo de 24 horas de antelación sin ningún coste. Las cancelaciones con menos de 24 horas pueden tener una penalización del 50% de la sesión.</p>
-          </div>
-        </div>
+      </div>
+    </section>
+
+    <!-- ===== BANNER URGENCIA ===== -->
+    <div class="urgency-banner">
+      <div class="container">
+        🎁 <strong>Oferta de bienvenida:</strong> Primera sesión de 60 min por
+        solo <strong>39€</strong> (precio habitual 65€) · Plazas limitadas esta
+        semana
+        <a href="#contacto" class="urgency-banner__cta"
+          >Quiero mi descuento →</a
+        >
       </div>
     </div>
-  </section>
 
-  <!-- ===== FORMULARIO DE CONTACTO ===== -->
-  <section class="section section--contact" id="contacto">
-    <div class="container contact__grid">
-      <div class="contact__info">
-        <span class="section__eyebrow">Reservas & Consultas</span>
-        <h2 class="section__title">¿Hablamos?</h2>
-        <p>Rellena el formulario y te contesto en menos de 2 horas (en horario de atención). También puedes escribirme directamente por WhatsApp.</p>
-        <div class="contact__channels">
-          <a href="https://wa.me/34XXXXXXXXX?text=Hola%20Sandra,%20quiero%20reservar%20una%20sesi%C3%B3n" class="contact__channel contact__channel--whatsapp" target="_blank" rel="noopener">
-            <span class="contact__channel-icon">📱</span>
-            <div>
-              <strong>WhatsApp</strong>
-              <small>Respuesta rápida · +34 XXX XXX XXX</small>
+    <!-- ===== SERVICIOS ===== -->
+    <section class="section" id="servicios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Lo que ofrezco</span>
+          <h2 class="section__title">Tratamientos para tu bienestar</h2>
+          <p class="section__subtitle">
+            Cada sesión es personalizada según tus necesidades. No hay dos
+            cuerpos iguales.
+          </p>
+        </div>
+        <div class="services__grid">
+          <div class="service-card service-card--featured">
+            <div class="service-card__icon">🌿</div>
+            <div class="service-card__badge">Más popular</div>
+            <h3 class="service-card__title">Quiromasaje Terapéutico</h3>
+            <p class="service-card__desc">
+              Técnica manual profunda para aliviar contracturas, dolores
+              musculares y mejorar la movilidad. Ideal si pasas horas sentado o
+              tienes dolor de espalda.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Alivia contracturas y tensión</li>
+              <li>✓ Mejora la circulación</li>
+              <li>✓ Reduce el dolor crónico</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Desde 50€</span>
+              <span class="duration">· 60 min</span>
             </div>
-          </a>
-          <a href="mailto:sandra@sandraquiromasajista.es" class="contact__channel">
-            <span class="contact__channel-icon">✉️</span>
-            <div>
-              <strong>Email</strong>
-              <small>sandra@sandraquiromasajista.es</small>
+            <a href="#contacto" class="btn btn--primary btn--sm">Reservar</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">✨</div>
+            <h3 class="service-card__title">Masaje Relajante</h3>
+            <p class="service-card__desc">
+              Elimina el estrés acumulado con movimientos suaves y continuos.
+              Sal de la sesión sintiéndote completamente renovado/a.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Reduce ansiedad y estrés</li>
+              <li>✓ Mejora el sueño</li>
+              <li>✓ Sensación de bienestar inmediata</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Desde 45€</span>
+              <span class="duration">· 60 min</span>
             </div>
-          </a>
-          <div class="contact__channel">
-            <span class="contact__channel-icon">📍</span>
+            <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">⚡</div>
+            <h3 class="service-card__title">Masaje Deportivo</h3>
+            <p class="service-card__desc">
+              Diseñado para deportistas y personas activas. Recuperación
+              muscular, prevención de lesiones y mejora del rendimiento.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Recuperación rápida</li>
+              <li>✓ Previene lesiones</li>
+              <li>✓ Mejora el rendimiento</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Desde 55€</span>
+              <span class="duration">· 60 min</span>
+            </div>
+            <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">🕯️</div>
+            <h3 class="service-card__title">Ritual de Bienestar</h3>
+            <p class="service-card__desc">
+              Sesión completa que combina técnicas relajantes, aceites
+              esenciales y trabajo corporal profundo. El regalo perfecto para ti
+              o para alguien especial.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Experiencia holística</li>
+              <li>✓ Ideal como regalo</li>
+              <li>✓ Recuperación total</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Desde 75€</span>
+              <span class="duration">· 90 min</span>
+            </div>
+            <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
+          </div>
+
+          <div class="service-card">
+            <div class="service-card__icon">💆</div>
+            <h3 class="service-card__title">Sesión Express</h3>
+            <p class="service-card__desc">
+              Perfecta para una pausa activa en tu día. Foco en cuello, hombros
+              y espalda alta. Sin necesidad de desvestirse.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Sin preparación previa</li>
+              <li>✓ Resultado inmediato</li>
+              <li>✓ Cabe en tu hora de almuerzo</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Desde 25€</span>
+              <span class="duration">· 30 min</span>
+            </div>
+            <a href="#contacto" class="btn btn--outline btn--sm">Reservar</a>
+          </div>
+
+          <div class="service-card service-card--bono">
+            <div class="service-card__icon">🎁</div>
+            <h3 class="service-card__title">Bonos Multi-sesión</h3>
+            <p class="service-card__desc">
+              Ahorra hasta un 20% comprando bonos de 5 o 10 sesiones. Ideal para
+              tratamientos continuos o regalos.
+            </p>
+            <ul class="service-card__benefits">
+              <li>✓ Bono 5 sesiones: 10% dto.</li>
+              <li>✓ Bono 10 sesiones: 20% dto.</li>
+              <li>✓ Sin caducidad</li>
+            </ul>
+            <div class="service-card__price">
+              <span class="price">Consultar precio</span>
+            </div>
+            <a href="#contacto" class="btn btn--outline btn--sm">Más info</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SOBRE MÍ ===== -->
+    <section class="section section--alt" id="sobre-mi">
+      <div class="container about__grid">
+        <div class="about__image-wrap">
+          <div class="about__image-placeholder">
+            <img
+              src="images/foto_1_perfil_fondo_claro_01.jpg"
+              alt="Sandra quiromasajista"
+              class="about__photo"
+            />
+          </div>
+          <div class="about__badge">
+            <span class="about__badge-icon">🎓</span>
             <div>
-              <strong>Ubicación</strong>
-              <small>[Barrio/Zona], Madrid</small>
+              <strong>Certificada</strong>
+              <small>Formación oficial en Quiromasaje</small>
             </div>
           </div>
-          <div class="contact__channel">
-            <span class="contact__channel-icon">🕐</span>
-            <div>
-              <strong>Horario</strong>
-              <small>Lun–Vie 9:00–20:00 · Sáb 9:00–14:00</small>
+        </div>
+        <div class="about__content">
+          <span class="section__eyebrow">Sobre mí</span>
+          <h2 class="section__title">Hola, soy Sandra</h2>
+          <p>
+            Soy quiromasajista certificada con más de [X] años de experiencia
+            ayudando a personas como tú a recuperar su bienestar físico y
+            mental.
+          </p>
+          <p>
+            Creo que el masaje no es un lujo, es una necesidad. El cuerpo habla,
+            y yo escucho. Cada sesión la adapto completamente a ti: tus
+            tensiones, tu ritmo, tus objetivos.
+          </p>
+          <p>
+            Me formé en [nombre del centro/instituto] y desde entonces he
+            trabajado con deportistas, profesionales con estrés laboral,
+            personas con dolor crónico y también quienes simplemente quieren
+            desconectar y cuidarse.
+          </p>
+          <div class="about__credentials">
+            <div class="credential">
+              <span class="credential__icon">✓</span>
+              <span>Quiromasajista titulada</span>
+            </div>
+            <div class="credential">
+              <span class="credential__icon">✓</span>
+              <span>Formación en técnicas deportivas</span>
+            </div>
+            <div class="credential">
+              <span class="credential__icon">✓</span>
+              <span>Especialización en dolor crónico</span>
+            </div>
+            <div class="credential">
+              <span class="credential__icon">✓</span>
+              <span>+[X] horas de formación continua</span>
+            </div>
+          </div>
+          <a href="#contacto" class="btn btn--primary"
+            >Reserva una sesión conmigo</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROCESO ===== -->
+    <section class="section" id="proceso">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">¿Cómo funciona?</span>
+          <h2 class="section__title">De la reserva al bienestar en 3 pasos</h2>
+        </div>
+        <div class="steps__grid">
+          <div class="step">
+            <div class="step__number">01</div>
+            <h3 class="step__title">Rellena el formulario</h3>
+            <p class="step__desc">
+              Cuéntame qué necesitas, cuándo puedes y qué zona de tu cuerpo
+              quieres trabajar. Te respondo en menos de 2 horas.
+            </p>
+          </div>
+          <div class="step__arrow">→</div>
+          <div class="step">
+            <div class="step__number">02</div>
+            <h3 class="step__title">Confirmamos tu cita</h3>
+            <p class="step__desc">
+              Te envío la confirmación con todos los detalles: hora, lugar y
+              cómo prepararte para aprovechar al máximo la sesión.
+            </p>
+          </div>
+          <div class="step__arrow">→</div>
+          <div class="step">
+            <div class="step__number">03</div>
+            <h3 class="step__title">Disfruta y mejora</h3>
+            <p class="step__desc">
+              Llega, relájate y déjate llevar. Al final de cada sesión te doy
+              recomendaciones personalizadas para seguir mejorando.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== TESTIMONIOS ===== -->
+    <section class="section section--alt" id="testimonios">
+      <div class="container">
+        <div class="section__header">
+          <span class="section__eyebrow">Lo que dicen mis clientes</span>
+          <h2 class="section__title">Resultados reales</h2>
+        </div>
+        <div class="testimonials__grid">
+          <div class="testimonial-card">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">
+              "Llevaba meses con dolor de espalda que no se iba. Después de 3
+              sesiones con Sandra me siento como nueva. Su profesionalidad y
+              trato son increíbles."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">M</div>
+              <div>
+                <strong>María García</strong>
+                <small>Madrid · Quiromasaje Terapéutico</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">
+              "Fui con contracturas brutales después de una semana de trabajo
+              intenso. Sandra las resolvió en una sola sesión. Ya soy cliente
+              habitual. Totalmente recomendable."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">C</div>
+              <div>
+                <strong>Carlos López</strong>
+                <small>Madrid · Masaje deportivo</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <div class="testimonial__stars">★★★★★</div>
+            <p class="testimonial__text">
+              "Le regalé un bono a mi madre y nos dijo que fue lo mejor que le
+              han regalado en mucho tiempo. Sandra transmite una energía muy
+              especial. 100% recomendada."
+            </p>
+            <div class="testimonial__author">
+              <div class="testimonial__avatar">A</div>
+              <div>
+                <strong>Ana Martínez</strong>
+                <small>Madrid · Ritual de Bienestar</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__cta">
+          <p>¿Lista para sentirte así?</p>
+          <a href="#contacto" class="btn btn--primary"
+            >Reservar mi primera sesión</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section" id="faq">
+      <div class="container faq__wrap">
+        <div class="section__header">
+          <span class="section__eyebrow">Preguntas frecuentes</span>
+          <h2 class="section__title">Todo lo que necesitas saber</h2>
+        </div>
+        <div class="faq__list">
+          <div class="faq__item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              ¿Dónde se realizan las sesiones?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Las sesiones se realizan en [dirección/zona de Madrid]. También
+                ofrezco servicio a domicilio en determinadas zonas (consultar
+                disponibilidad y coste adicional).
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              ¿Cómo debo prepararme para la sesión?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>
+                No necesitas preparación especial. Es recomendable no haber
+                comido en abundancia 1-2 horas antes y llegar descansado. Yo me
+                encargo del resto.
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              ¿Cuántas sesiones necesito?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Depende de cada caso. Para dolores agudos o estrés puntual, una
+                sesión puede ser suficiente. Para problemas crónicos o
+                mantenimiento del bienestar, recomiendo entre 1 y 2 sesiones al
+                mes.
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              ¿Cómo puedo pagar?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Acepto efectivo, transferencia bancaria y Bizum. El pago se
+                realiza al finalizar la sesión (o al inicio en el caso de
+                bonos).
+              </p>
+            </div>
+          </div>
+          <div class="faq__item">
+            <button class="faq__question" onclick="toggleFaq(this)">
+              ¿Puedo cancelar o cambiar mi cita?
+              <span class="faq__icon">+</span>
+            </button>
+            <div class="faq__answer">
+              <p>
+                Sí, con un mínimo de 24 horas de antelación sin ningún coste.
+                Las cancelaciones con menos de 24 horas pueden tener una
+                penalización del 50% de la sesión.
+              </p>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="contact__form-wrap">
-        <!--
+    <!-- ===== FORMULARIO DE CONTACTO ===== -->
+    <section class="section section--contact" id="contacto">
+      <div class="container contact__grid">
+        <div class="contact__info">
+          <span class="section__eyebrow">Reservas & Consultas</span>
+          <h2 class="section__title">¿Hablamos?</h2>
+          <p>
+            Rellena el formulario y te contesto en menos de 2 horas (en horario
+            de atención). También puedes escribirme directamente por WhatsApp.
+          </p>
+          <div class="contact__channels">
+            <a
+              href="https://wa.me/34XXXXXXXXX?text=Hola%20Sandra,%20quiero%20reservar%20una%20sesi%C3%B3n"
+              class="contact__channel contact__channel--whatsapp"
+              target="_blank"
+              rel="noopener"
+            >
+              <span class="contact__channel-icon">📱</span>
+              <div>
+                <strong>WhatsApp</strong>
+                <small>Respuesta rápida · +34 662 40 86 15</small>
+              </div>
+            </a>
+            <a
+              href="mailto:quiromasaje@sandrawong.es"
+              class="contact__channel"
+            >
+              <span class="contact__channel-icon">✉️</span>
+              <div>
+                <strong>Email</strong>
+                <small>quiromasaje@sandrawong.es</small>
+              </div>
+            </a>
+            <div class="contact__channel">
+              <span class="contact__channel-icon">📍</span>
+              <div>
+                <strong>Ubicación</strong>
+                <small>[Barrio/Zona], Madrid</small>
+              </div>
+            </div>
+            <div class="contact__channel">
+              <span class="contact__channel-icon">🕐</span>
+              <div>
+                <strong>Horario</strong>
+                <small>Lun–Vie 9:00–20:00 · Sáb 9:00–14:00</small>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap">
+          <!--
           FORMULARIO: Conectar con Formspree, EmailJS o similar.
           1. Ir a https://formspree.io y crear cuenta gratuita
           2. Reemplazar "YOUR_FORM_ID" con tu ID de Formspree
           O bien usar EmailJS / tu propio backend.
         -->
-        <form class="contact__form" id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-          <div class="form__row">
-            <div class="form__group">
-              <label for="nombre">Nombre *</label>
-              <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          <form
+            class="contact__form"
+            id="contactForm"
+            action="https://formspree.io/f/YOUR_FORM_ID"
+            method="POST"
+          >
+            <div class="form__row">
+              <div class="form__group">
+                <label for="nombre">Nombre *</label>
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Tu nombre"
+                  required
+                />
+              </div>
+              <div class="form__group">
+                <label for="telefono">Teléfono *</label>
+                <input
+                  type="tel"
+                  id="telefono"
+                  name="telefono"
+                  placeholder="+34 6XX XXX XXX"
+                  required
+                />
+              </div>
             </div>
             <div class="form__group">
-              <label for="telefono">Teléfono *</label>
-              <input type="tel" id="telefono" name="telefono" placeholder="+34 6XX XXX XXX" required />
-            </div>
-          </div>
-          <div class="form__group">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="tu@email.com" />
-          </div>
-          <div class="form__group">
-            <label for="servicio">Servicio de interés *</label>
-            <select id="servicio" name="servicio" required>
-              <option value="">Selecciona un servicio</option>
-              <option value="quiromasaje-terapeutico">Quiromasaje Terapéutico (50€)</option>
-              <option value="masaje-relajante">Masaje Relajante (45€)</option>
-              <option value="masaje-deportivo">Masaje Deportivo (55€)</option>
-              <option value="ritual-bienestar">Ritual de Bienestar (75€)</option>
-              <option value="sesion-express">Sesión Express (25€)</option>
-              <option value="bono">Bono Multi-sesión</option>
-              <option value="no-se">No sé, necesito orientación</option>
-            </select>
-          </div>
-          <div class="form__row">
-            <div class="form__group">
-              <label for="fecha">Fecha preferida</label>
-              <input type="date" id="fecha" name="fecha" />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="tu@email.com"
+              />
             </div>
             <div class="form__group">
-              <label for="horario">Horario preferido</label>
-              <select id="horario" name="horario">
-                <option value="">Cualquiera</option>
-                <option value="manana">Mañana (9-13h)</option>
-                <option value="mediodia">Mediodía (13-16h)</option>
-                <option value="tarde">Tarde (16-20h)</option>
+              <label for="servicio">Servicio de interés *</label>
+              <select id="servicio" name="servicio" required>
+                <option value="">Selecciona un servicio</option>
+                <option value="quiromasaje-terapeutico">
+                  Quiromasaje Terapéutico (50€)
+                </option>
+                <option value="masaje-relajante">Masaje Relajante (45€)</option>
+                <option value="masaje-deportivo">Masaje Deportivo (55€)</option>
+                <option value="ritual-bienestar">
+                  Ritual de Bienestar (75€)
+                </option>
+                <option value="sesion-express">Sesión Express (25€)</option>
+                <option value="bono">Bono Multi-sesión</option>
+                <option value="no-se">No sé, necesito orientación</option>
               </select>
             </div>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="fecha">Fecha preferida</label>
+                <input type="date" id="fecha" name="fecha" />
+              </div>
+              <div class="form__group">
+                <label for="horario">Horario preferido</label>
+                <select id="horario" name="horario">
+                  <option value="">Cualquiera</option>
+                  <option value="manana">Mañana (9-13h)</option>
+                  <option value="mediodia">Mediodía (13-16h)</option>
+                  <option value="tarde">Tarde (16-20h)</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="mensaje"
+                >¿Qué zona te molesta o qué necesitas? *</label
+              >
+              <textarea
+                id="mensaje"
+                name="mensaje"
+                rows="4"
+                placeholder="Ej: Tengo contracturas en el cuello y hombros por el trabajo en oficina. Me duele bastante desde hace 2 semanas."
+                required
+              ></textarea>
+            </div>
+            <div class="form__group form__group--checkbox">
+              <input
+                type="checkbox"
+                id="privacidad"
+                name="privacidad"
+                required
+              />
+              <label for="privacidad"
+                >He leído y acepto la
+                <a href="privacidad.html" target="_blank"
+                  >política de privacidad</a
+                >
+                *</label
+              >
+            </div>
+            <!-- Campo honeypot anti-spam -->
+            <input type="text" name="_gotcha" style="display: none" />
+            <button
+              type="submit"
+              class="btn btn--primary btn--full"
+              id="submitBtn"
+            >
+              Enviar solicitud de reserva
+            </button>
+            <p class="form__note">
+              📱 También puedes escribirme directamente por
+              <a href="https://wa.me/34662408615" target="_blank">WhatsApp</a>
+            </p>
+          </form>
+          <div class="form__success" id="formSuccess" style="display: none">
+            <span class="success__icon">✅</span>
+            <h3>¡Mensaje recibido!</h3>
+            <p>
+              Te contesto en menos de 2 horas. Si es urgente, escríbeme por
+              WhatsApp.
+            </p>
+            <a
+              href="https://wa.me/34662408615"
+              class="btn btn--primary"
+              target="_blank"
+              >Ir a WhatsApp</a
+            >
           </div>
-          <div class="form__group">
-            <label for="mensaje">¿Qué zona te molesta o qué necesitas? *</label>
-            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ej: Tengo contracturas en el cuello y hombros por el trabajo en oficina. Me duele bastante desde hace 2 semanas." required></textarea>
-          </div>
-          <div class="form__group form__group--checkbox">
-            <input type="checkbox" id="privacidad" name="privacidad" required />
-            <label for="privacidad">He leído y acepto la <a href="privacidad.html" target="_blank">política de privacidad</a> *</label>
-          </div>
-          <!-- Campo honeypot anti-spam -->
-          <input type="text" name="_gotcha" style="display:none" />
-          <button type="submit" class="btn btn--primary btn--full" id="submitBtn">
-            Enviar solicitud de reserva
-          </button>
-          <p class="form__note">📱 También puedes escribirme directamente por <a href="https://wa.me/34XXXXXXXXX" target="_blank">WhatsApp</a></p>
-        </form>
-        <div class="form__success" id="formSuccess" style="display:none">
-          <span class="success__icon">✅</span>
-          <h3>¡Mensaje recibido!</h3>
-          <p>Te contesto en menos de 2 horas. Si es urgente, escríbeme por WhatsApp.</p>
-          <a href="https://wa.me/34XXXXXXXXX" class="btn btn--primary" target="_blank">Ir a WhatsApp</a>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ===== FOOTER ===== -->
-  <footer class="footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <span class="logo-symbol">✦</span>
-        <span class="logo-text">Sandra <span class="logo-sub">Quiromasajista</span></span>
-        <p class="footer__tagline">Tu bienestar en buenas manos</p>
-      </div>
-      <div class="footer__links">
-        <h4>Servicios</h4>
-        <ul>
-          <li><a href="#servicios">Quiromasaje Terapéutico</a></li>
-          <li><a href="#servicios">Masaje Relajante</a></li>
-          <li><a href="#servicios">Masaje Deportivo</a></li>
-          <li><a href="#servicios">Ritual de Bienestar</a></li>
-        </ul>
-      </div>
-      <div class="footer__links">
-        <h4>Información</h4>
-        <ul>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#faq">Preguntas frecuentes</a></li>
-          <li><a href="privacidad.html">Política de privacidad</a></li>
-          <li><a href="aviso-legal.html">Aviso legal</a></li>
-        </ul>
-      </div>
-      <div class="footer__social">
-        <h4>Sígueme</h4>
-        <div class="social__links">
-          <a href="https://instagram.com/sandraquiromasajista" target="_blank" rel="noopener" aria-label="Instagram">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
-          </a>
-          <a href="https://facebook.com/sandraquiromasajista" target="_blank" rel="noopener" aria-label="Facebook">
-            <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          </a>
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <span class="logo-symbol">✦</span>
+          <span class="logo-text"
+            >Sandra <span class="logo-sub">Quiromasajista</span></span
+          >
+          <p class="footer__tagline">Tu bienestar en buenas manos</p>
+        </div>
+        <div class="footer__links">
+          <h4>Servicios</h4>
+          <ul>
+            <li><a href="#servicios">Quiromasaje Terapéutico</a></li>
+            <li><a href="#servicios">Masaje Relajante</a></li>
+            <li><a href="#servicios">Masaje Deportivo</a></li>
+            <li><a href="#servicios">Ritual de Bienestar</a></li>
+          </ul>
+        </div>
+        <div class="footer__links">
+          <h4>Información</h4>
+          <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#faq">Preguntas frecuentes</a></li>
+            <li><a href="privacidad.html">Política de privacidad</a></li>
+            <li><a href="aviso-legal.html">Aviso legal</a></li>
+          </ul>
+        </div>
+        <div class="footer__social">
+          <h4>Sígueme</h4>
+          <div class="social__links">
+            <a
+              href="https://instagram.com/sandraquiromasajista"
+              target="_blank"
+              rel="noopener"
+              aria-label="Instagram"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="24"
+                height="24"
+              >
+                <path
+                  d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://facebook.com/sandraquiromasajista"
+              target="_blank"
+              rel="noopener"
+              aria-label="Facebook"
+            >
+              <svg
+                viewBox="0 0 24 24"
+                fill="currentColor"
+                width="24"
+                height="24"
+              >
+                <path
+                  d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+                />
+              </svg>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="footer__bottom">
-      <div class="container">
-        <p>© 2026 Sandra Quiromasajista · Madrid · <a href="mailto:sandra@sandraquiromasajista.es">sandra@sandraquiromasajista.es</a></p>
+      <div class="footer__bottom">
+        <div class="container">
+          <p>
+            © 2026 Sandra Quiromasajista · Madrid ·
+            <a href="mailto:sandra@sandraquiromasajista.es"
+              >sandra@sandraquiromasajista.es</a
+            >
+          </p>
+        </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-  <!-- WhatsApp Floating Button -->
-  <a href="https://wa.me/34XXXXXXXXX?text=Hola%20Sandra,%20me%20gustar%C3%ADa%20reservar%20una%20sesi%C3%B3n"
-     class="whatsapp-float" target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
-    <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
-  </a>
+    <!-- WhatsApp Floating Button -->
+    <a
+      href="https://wa.me/34662408615?text=Hola%20Sandra,%20me%20gustar%C3%ADa%20reservar%20una%20sesi%C3%B3n"
+      class="whatsapp-float"
+      target="_blank"
+      rel="noopener"
+      aria-label="Contactar por WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" width="28" height="28">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+    </a>
 
-  <script src="js/main.js"></script>
-</body>
+    <script src="js/main.js"></script>
+  </body>
 </html>
