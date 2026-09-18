@@ -482,18 +482,15 @@
           </div>
         </div>
 
+        <!-- ===== Formulario apuntando a Netlify ===== -->
         <div class="contact__form-wrap">
-          <!--
-          FORMULARIO: Conectar con Formspree, EmailJS o similar.
-          1. Ir a https://formspree.io y crear cuenta gratuita
-          2. Reemplazar "YOUR_FORM_ID" con tu ID de Formspree
-          O bien usar EmailJS / tu propio backend.
-        -->
           <form
             class="contact__form"
             id="contactForm"
-            action="https://formspree.io/f/YOUR_FORM_ID"
             method="POST"
+            name="contact"
+            netlify
+            netlify-honeypot="_gotcha"
           >
             <div class="form__row">
               <div class="form__group">
