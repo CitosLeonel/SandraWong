@@ -34,25 +34,6 @@ document.addEventListener("DOMContentLoaded", function () {
     if (!isOpen) item.classList.add("open");
   };
 
-  // ---- TRACKING DE CONVERSIONES ----
-  function trackConversion() {
-    // Google Ads conversion
-    if (typeof gtag !== "undefined") {
-      gtag("event", "conversion", {
-        send_to: "AW-XXXXXXXXXX/XXXXXXXXXXX", // Reemplazar con tu ID de conversión
-        event_callback: function () {},
-      });
-      gtag("event", "lead", {
-        event_category: "contacto",
-        event_label: "formulario_reserva",
-      });
-    }
-    // Meta Pixel
-    if (typeof fbq !== "undefined") {
-      fbq("track", "Lead");
-    }
-  }
-
   // ---- SMOOTH SCROLL (refuerzo para navegadores legacy) ----
   document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     anchor.addEventListener("click", function (e) {
