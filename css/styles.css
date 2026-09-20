@@ -358,19 +358,7 @@ button {
   transform: translateY(-4px);
   box-shadow: var(--shadow-md);
 }
-.service-card--featured {
-  background: var(--color-primary);
-  color: var(--color-white);
-  border-color: var(--color-primary);
-}
-.service-card--featured h3,
-.service-card--featured p,
-.service-card--featured li {
-  color: rgba(255, 255, 255, 0.9);
-}
-.service-card--featured h3 {
-  color: var(--color-white);
-}
+
 .service-card--bono {
   border: 2px dashed var(--color-accent);
   background: var(--color-accent-light);
@@ -700,9 +688,7 @@ button {
 .contact__channel:hover {
   background: rgba(255, 255, 255, 0.14);
 }
-.contact__channel--whatsapp {
-  border-color: rgba(37, 211, 102, 0.4);
-}
+
 .contact__channel-icon {
   font-size: 1.4rem;
   flex-shrink: 0;
