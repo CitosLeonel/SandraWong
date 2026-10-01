@@ -58,7 +58,30 @@
     </header>
 
     <!-- ===== HERO ===== -->
-    <section class="hero" id="hero"></section>
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Sandra Wong</h1>
+
+          <p class="hero__subtitle">
+            Tu quiromasajista en un click, sin complicaciones.
+          </p>
+
+          <p class="hero__desc">
+            Sesiones de quiromasaje a domicilio. Reduce el estrés y recupera tu
+            energía sin salir de casa.
+          </p>
+        </div>
+
+        <div class="hero__image-wrap">
+          <img
+            src="images/sandra_hero.webp"
+            alt="Sandra Wong, quiromasajista profesional"
+            class="hero__image"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- ===== SERVICIOS ===== -->
     <section class="section" id="servicios">
@@ -184,7 +207,7 @@
         <div class="about__image-wrap">
           <div class="about__image-placeholder">
             <img
-              src="images/foto_1_perfil_fondo_claro_01.jpg"
+              src="images/sandra_sobre_mi.webp"
               alt="Sandra quiromasajista"
               class="about__photo"
             />
@@ -403,50 +426,64 @@
     <!-- ===== CONTACTO ===== -->
     <section class="section section--contact" id="contacto">
       <div class="container contact__grid">
+        <!-- Información / Reserva -->
         <div class="contact__info">
           <span class="section__eyebrow">Reservas & Consultas</span>
+
           <h2 class="section__title">¿Hablamos?</h2>
+
           <p>Escríbeme al whatsapp y gestionamos tu cita en 5 minutos.</p>
-          <button
-            type="submit"
+
+          <a
+            href="https://wa.me/34711201346?text=Hola%20Sandra,%20quiero%20reservar%20una%20sesi%C3%B3n"
             class="btn btn--primary btn--full"
-            id="submitBtn"
+            target="_blank"
+            rel="noopener"
           >
-            Enviar solicitud de reserva
-          </button>
-          <div class="contact__channels">
-            <a
-              href="https://wa.me/34711201346?text=Hola%20Sandra,%20quiero%20reservar%20una%20sesi%C3%B3n"
-              class="contact__channel contact__channel--whatsapp"
-              target="_blank"
-              rel="noopener"
-            >
-              <span class="contact__channel-icon">📱</span>
-              <div>
-                <strong>WhatsApp</strong>
-                <small>Respuesta rápida · +34 711 20 13 46</small>
-              </div>
-            </a>
-            <a href="mailto:quiromasaje@sandrawong.es" class="contact__channel">
-              <span class="contact__channel-icon">✉️</span>
-              <div>
-                <strong>Email</strong>
-                <small>quiromasaje@sandrawong.es</small>
-              </div>
-            </a>
-            <div class="contact__channel">
-              <span class="contact__channel-icon">📍</span>
-              <div>
-                <strong>Ubicación</strong>
-                <small>Madrid, España</small>
-              </div>
+            Reserva tu primera sesión con un 10% de descuento
+          </a>
+        </div>
+
+        <!-- Canales de contacto -->
+        <div class="contact__channels">
+          <a
+            href="https://wa.me/34711201346?text=Hola%20Sandra,%20quiero%20reservar%20una%20sesi%C3%B3n"
+            class="contact__channel contact__channel--whatsapp"
+            target="_blank"
+            rel="noopener"
+          >
+            <span class="contact__channel-icon">📱</span>
+
+            <div>
+              <strong>WhatsApp</strong>
+              <small>Respuesta rápida · +34 711 20 13 46</small>
             </div>
-            <div class="contact__channel">
-              <span class="contact__channel-icon">🕐</span>
-              <div>
-                <strong>Horario</strong>
-                <small>Lun–Sáb 9:00–19:00</small>
-              </div>
+          </a>
+
+          <a href="mailto:quiromasaje@sandrawong.es" class="contact__channel">
+            <span class="contact__channel-icon">✉️</span>
+
+            <div>
+              <strong>Email</strong>
+              <small>quiromasaje@sandrawong.es</small>
+            </div>
+          </a>
+
+          <div class="contact__channel">
+            <span class="contact__channel-icon">📍</span>
+
+            <div>
+              <strong>Ubicación</strong>
+              <small>Madrid, España</small>
+            </div>
+          </div>
+
+          <div class="contact__channel">
+            <span class="contact__channel-icon">🕐</span>
+
+            <div>
+              <strong>Horario</strong>
+              <small>Lun–Sáb 9:00–19:00</small>
             </div>
           </div>
         </div>
@@ -459,7 +496,8 @@
         <div class="footer__brand">
           <span class="logo-symbol">✦</span>
           <span class="logo-text"
-            >Sandra Wong <span class="logo-sub">Quiromasajista Titulada</span></span
+            >Sandra Wong
+            <span class="logo-sub">Quiromasajista Titulada</span></span
           >
           <p class="footer__tagline">Tu bienestar en buenas manos</p>
         </div>
